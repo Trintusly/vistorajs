@@ -1,5 +1,5 @@
-const Server = require("./Classes/Networking/Server");
+const Alert = require("./Classes/Game/Player/Alert")
 
-let Game = new Server()
+let al = new Alert("a")
 
-console.log(Game)
+console.log(al)
