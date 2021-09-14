@@ -6,11 +6,11 @@ const Payload = require("../../../Networking/Payload")
 class BaseObject {
 
     constructor() {
-        this.name = "Object-" + Math.random()
+        this.name     = "Object-" + Math.random()
         this.rotation = new Vector3()
         this.position = new Vector3()
-        this.scale = new Vector3()
-        this.color = "FFF"
+        this.scale    = new Vector3()
+        this.color    = "FFF"
     }
 
     instance() {

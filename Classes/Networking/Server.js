@@ -5,9 +5,9 @@ const Map = require("../Game/Core/Map")
 class Server {
 
     constructor() {
-        this.port = 9022
+        this.port    = 9022
         this.players = []
-        this.map = new Map()
+        this.map     = new Map()
     }    
 
 }

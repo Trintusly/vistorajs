@@ -11,12 +11,12 @@ class Avatar {
             right_leg: null,
             left_leg:  null
         }
-        this.hats = {
+        this.hats  = {
             hat1: 0,
             hat2: 0,
             hat3: 0
         }
-        this.face = 0
+        this.face  = 0
         this.shirt = 0
         this.pants = 0
     }
